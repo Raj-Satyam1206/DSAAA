@@ -1,7 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
-//EUCLIDEAN ALGO
-//GCD of two numbers remain same when the larger number subtracts the smaller number
+// Find the GCD of two numbers
+// GCD of two numbers remain same when the larger number subtracts the smaller number
 
 /*
 gcd(20 , 15) = gcd(20-15 , 15)
@@ -11,6 +9,12 @@ gcd(20 , 15) = gcd(20-15 , 15)
 = gcd(0 , 5) = 5
 
 */
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+//EUCLIDEAN ALGO
 int gcd(int n1, int n2)
 {
     if(n1 == 0) return n2;
